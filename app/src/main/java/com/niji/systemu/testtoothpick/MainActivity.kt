@@ -16,7 +16,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject lateinit var gson: Gson
-    lateinit git var activityScope : Scope
+    lateinit var activityScope : Scope
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
